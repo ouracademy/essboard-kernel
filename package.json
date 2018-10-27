@@ -4,6 +4,9 @@
   "description": "Essence kernel",
   "author": "ouracademy",
   "license": "MIT",
+  "engines": {
+    "node": "^8.11.1"
+  },
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
