@@ -10,7 +10,7 @@ export class KernelController {
     return await this.service.getAlphas();
   }
 
-  @Get(':id')
+  @Get('alphas/:id')
   public async getStates(@Param('id') alphaId: string) {
     return await this.service.getStates(alphaId);
   }
