@@ -14,4 +14,8 @@ export class KernelController {
   public async getStates(@Param('id') alphaId: string) {
     return await this.service.getStates(alphaId);
   }
+  @Get('schema')
+  public async getkernelSchema() {
+    return await this.service.getkernelSchema();
+  }
 }
