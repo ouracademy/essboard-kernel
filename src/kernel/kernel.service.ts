@@ -3,7 +3,7 @@ import { Injectable, Inject, BadRequestException } from '@nestjs/common';
 export interface Alpha {
   id: string;
   name: string;
-  color: string;
+  area: string;
 }
 
 export interface State {
@@ -20,8 +20,8 @@ export class KernelService {
     const session = this.neo4jDriver.session();
     return session
       .run(
-        `MATCH (alpha:Alpha)-[:BELONGS_AREA]->(area:Area) 
-        RETURN alpha.id AS id,alpha.name AS name,area.color AS color
+        `MATCH (alpha:Alpha)-[:BELONGS_AREA]->(area:Area)
+        RETURN alpha.id AS id,alpha.name AS name,area.id AS area
         ORDER BY id`,
       )
       .then(result => {
@@ -35,7 +35,7 @@ export class KernelService {
     const session = this.neo4jDriver.session();
     return session
       .run(
-        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha {id: {alphaId} })  
+        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha {id: {alphaId} })
         OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
         RETURN state.id as id, state.name as name, prev.id as previousId`,
         { alphaId },
@@ -51,7 +51,7 @@ export class KernelService {
     const session = this.neo4jDriver.session();
     return session
       .run(
-        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha)  
+        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha)
         OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
         WITH state,alpha,prev
         ORDER BY state.id
