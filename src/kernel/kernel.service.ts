@@ -64,4 +64,20 @@ export class KernelService {
       })
       .catch(error => Promise.reject(new BadRequestException(error)));
   }
+
+  public getCheckpoints(stateId) {
+    const session = this.neo4jDriver.session();
+    return session
+      .run(
+        `MATCH (state: State {id: {stateId} })-[:HAS_CHECKPOINTS]->(checkpoint:Checkpoint)
+        RETURN checkpoint.id as id, checkpoint.name as name, checkpoint.description as description,
+          checkpoint.isVisibleInCard as isVisibleInCard`,
+        { stateId },
+      )
+      .then(result => {
+        session.close();
+        return result.records.map(record => record.toObject());
+      })
+      .catch(error => Promise.reject(new BadRequestException(error)));
+  }
 }

@@ -18,4 +18,9 @@ export class KernelController {
   public async getkernelSchema() {
     return await this.service.getkernelSchema();
   }
+
+  @Get('states/:id/checkpoints')
+  public async getCheckpoints(@Param('id') id: string) {
+    return await this.service.getCheckpoints(id);
+  }
 }
