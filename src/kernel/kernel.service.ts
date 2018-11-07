@@ -37,7 +37,7 @@ export class KernelService {
       .run(
         `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha {id: {alphaId} })
         OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
-        RETURN state.id as id, state.name as name, prev.id as previousId`,
+        RETURN state.id as id, state.name as name, prev.id as previousId ORDER BY id`,
         { alphaId },
       )
       .then(result => {
@@ -71,7 +71,7 @@ export class KernelService {
       .run(
         `MATCH (state: State {id: {stateId} })-[:HAS_CHECKPOINTS]->(checkpoint:Checkpoint)
         RETURN checkpoint.id as id, checkpoint.name as name, checkpoint.description as description,
-          checkpoint.isVisibleInCard as isVisibleInCard`,
+          checkpoint.isVisibleInCard as isVisibleInCard ORDER BY id`,
         { stateId },
       )
       .then(result => {
