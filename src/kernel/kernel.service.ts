@@ -31,6 +31,24 @@ export class KernelService {
       .catch(error => Promise.reject(new BadRequestException(error)));
   }
 
+  public async getAlpha(alphaId: string): Promise<any> {
+    const session = this.neo4jDriver.session();
+    return session
+      .run(
+        `MATCH (checkpoint:Checkpoint)<-[:HAS_CHECKPOINTS]-(state: State)-[:BELONGS_ALPHA]->(alpha:Alpha {id: {alphaId} })
+        OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
+        RETURN  state.id as id, state.name as name, collect({id: checkpoint.id}) as checklist ORDER BY id`,
+        { alphaId },
+      )
+      .then(result => {
+        session.close();
+        return result.records.map(record => record.toObject());
+      })
+      .catch(error => {
+        return Promise.reject(new BadRequestException(error));
+      });
+  }
+
   public async getStates(alphaId: string): Promise<State> {
     const session = this.neo4jDriver.session();
     return session
@@ -73,6 +91,21 @@ export class KernelService {
         RETURN checkpoint.id as id, checkpoint.name as name, checkpoint.description as description,
           checkpoint.isVisibleInCard as isVisibleInCard ORDER BY id`,
         { stateId },
+      )
+      .then(result => {
+        session.close();
+        return result.records.map(record => record.toObject());
+      })
+      .catch(error => Promise.reject(new BadRequestException(error)));
+  }
+  public getkermel() {
+    const session = this.neo4jDriver.session();
+    return session
+      .run(
+        `MATCH (alpha:Alpha)-[:BELONGS_AREA]->(area:Area)
+        MATCH (state: State {id: {stateId} })-[:HAS_CHECKPOINTS]->(checkpoint:Checkpoint)
+        RETURN checkpoint.id as id, checkpoint.name as name, checkpoint.description as description,
+          checkpoint.isVisibleInCard as isVisibleInCard ORDER BY id`,
       )
       .then(result => {
         session.close();
