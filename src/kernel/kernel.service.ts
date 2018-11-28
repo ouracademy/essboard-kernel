@@ -53,9 +53,12 @@ export class KernelService {
     const session = this.neo4jDriver.session();
     return session
       .run(
-        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha {id: {alphaId} })
+        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha {id: {alphaId} })-[:BELONGS_AREA]->(area:Area)
         OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
-        RETURN state.id as id, state.name as name, prev.id as previousId ORDER BY id`,
+        WITH state,alpha,prev,area
+        ORDER BY state.id
+        RETURN alpha.id AS id,alpha.name AS name,area.id AS area,
+        collect({id: state.id, name: state.name, previous: prev.id}) as states`,
         { alphaId },
       )
       .then(result => {
