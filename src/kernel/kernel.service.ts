@@ -63,7 +63,7 @@ export class KernelService {
       )
       .then(result => {
         session.close();
-        return result.records.map(record => record.toObject());
+        return result.records.map(record => record.toObject())[0];
       })
       .catch(error => Promise.reject(new BadRequestException(error)));
   }
