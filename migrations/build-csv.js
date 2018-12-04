@@ -1,14 +1,15 @@
-const checkpoints = require('./checkpoints');
-
 const fs = require('fs');
 const path = require('path');
+const checkpoints = require('./source.js');
 const data = checkpoints
   .map(x => [
-    x.identifier,
+    x.checkpoint.length === 3
+      ? `"${parseInt(x.checkpoint / 10)}-${parseInt(x.checkpoint % 10)}"`
+      : `"${parseInt(x.checkpoint / 100)}-${parseInt(x.checkpoint % 100)}"`,
     x.state,
-    `"${x.name}"`,
+    `"${x.name ? x.name : ''}"`,
     `"${x.description}"`,
-    x.type,
+    !!x.name,
   ])
   .map(arr => arr.join(','))
   .join('\n');

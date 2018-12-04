@@ -1,19 +1,206 @@
-111,11,"Se identificaron los interesados","Se identificaron todos los diferentes grupos de interesados que son, o serán, afectados por el desarrollo y funcionamiento del sistema de software.",true
-112,11,"Existe un acuerdo entre los grupos de interesados que se van a representar","Existe un acuerdo sobre los grupos de interés a ser representado. Como mínimo, se han considerado los grupos de interés que el financian, usan, dan soporte y mantenimiento al sistema.",true
-113,11,"Se definieron las responsabilidades de los representantes de los interesados","Se han definido las responsabilidades de los representantes de los interesados.",true
-121,12,"Responsabilidades acordadas","Los representantes de los interesados han acordado en tomar sus responsabilidades.",true
-122,12,"Representantes autorizados","Los representantes de los interesados estan autorizados para llevar a cabo sus responsabilidades.",true
-123,12,"Forma de colaboración acordada","Se han acordado la forma de colaboracion entre los representantes de los interesados.",true
-124,12,"Forma de trabajo soportada y respetada","Los representantes de los interesados apoyan y respetan la forma de trabajo del equipo.",true
-131,13,"Representantes de los interesados asisten al equipos","Los representantes de los interesados asisten al equipo conforme a sus responsabilidades.",true
-132,13,"Representantes de los interesados agregan retroalimentacion y participan en decisiones temporales.","Los representantes de los interesados proveen retroalimentacion y toman parte en la toma de decisiones de una manera oportuna.",true
-133,13,"Representantes de los interesados se comunican con el grupo de interesados.","Los representantes de los interesados comunican cambios que son relevantes para su grupo.",true
-141,14,"Representantes de los interesados acordaron las expectativas minimas.","Los representantes de los interesados acordaron sobre sus expectativas minimas sobre el siguiente despliegue del nuevo sistema",true
-142,14,"Representantes de los interesados estan feliz con su participacion.","Los representantes de los interesados  estan felices por su partipacion en el trabajo.",false
-143,14,"Entrada de los representantes de los interesados son valoradas.","Los representantes de los interesados acuerdan que su entrada es valorada por los representantes de los interesados y tratada con respeto ",true
-144,14,"Entrada del equipo es valorado y respetado.","Los miembros del equipo acuerdan que su entrada es valorada por los representantes de los interesados y tratada con respeto",false
-145,14,"Prioridades claras y perspectivas balanceadas.","Los representantes de los interesados acuerdan como sus diferentes prioridades y perspectivas han sido balanceados para proveer una clara direccion al equipo",true
-151,15,"Interesadaos proveen retroalimentacion.","Los representantes de los interesados proveen retroalimentacion del sistema desde la perspectivas de su grupo de interesados",true
-152,15,"El sistema esta listo para el despiegue.","Los representantes de los interesados confirman que el sistema esta listo para el despliegue.",true
-161,16,"Retroalimentacion del uso del sistema es disponible","Los interesados estan usando el nuevo sistema y proveen retroalimentacion de sus experiencias",true
-162,16,"El sistema cumple con las alternativass","Los interesados confirman que el nuevo sistema cumple con las expectativas.",true
+"11-1",11,"Se identificaron los stakeholders","Se identificaron todos los diferentes grupos de stakeholders que son, o serán, afectados por el desarrollo y funcionamiento del sistema de software.",true
+"11-2",11,"Existe un acuerdo entre los grupos de stakeholders que se van a representar","Existe un acuerdo sobre los grupos de stakeholders a ser representados. Como mínimo, se han considerado los grupos de stakholders que financian, usan, dan soporte y mantenimiento al sistema.",true
+"11-3",11,"Se definieron las responsabilidades de los representantes de los stakeholders","Se han definido las responsabilidades de los representantes de los stakeholders.",true
+"12-1",12,"Se han identificado a los representantes de los stakeholders.","Los representantes de los stakeholders han acordado en tomar sus responsabilidades.",true
+"12-2",12,"Los representantes de los stakeholders están de acuerdo con tomar las responsabilidades y están autorizados.","Los representantes de los stakeholders estan autorizados para llevar a cabo sus responsabilidades.",true
+"12-3",12,"Se acordo la forma de colaboración.","Se han acordado la forma de colaboracion entre los representantes de los stakeholders",true
+"12-4",12,"Los representantes respetan la forma de trabajo del equipo.","Los representantes de los stakeholders apoyan y respetan la forma de trabajo del equipo.",true
+"13-1",13,"Los representantes de los stakeholders llevan a cabo sus responsabilidades.","Los representantes de los stakeholders asisten al equipo conforme a sus responsabilidades.",true
+"13-2",13,"Los representantes de los stakeholders proveen feedback y participan en las decisiones de manera oportuna","Los representantes de los stakeholders proveen feedback y toman parte en la toma de decisiones de una manera oportuna.",true
+"13-3",13,"Los representantes de los stakeholders se comunican rapidamente con su grupo de stakeholders","Los representantes de los stakeholders rápidamente comunican cambios que son relevantes para su grupo.",true
+"14-1",14,"Los representantes de los stakeholders acordaron las expectativas minimas.","Los representantes de los stakeholders han acordado sobre sus expectativas minimas para el siguiente despliegue del nuevo sistema",true
+"14-2",14,"","Los representantes de los stakeholders estan felices por su partipacion en el trabajo.",false
+"14-3",14,"Aporte de los representantes de los  stakeholders son valoradas.","Los representantes de los stakeholders estan de acuerdo que su aporte es valorado y tratada con respeto por los  miembros del equipo",true
+"14-4",14,"","Los miembros del equipo estan de acuerdo que su aporte es valorado y tratada con respeto por los representantes de los stakeholders",false
+"14-5",14,"Prioridades claras y perspectivas balanceadas.","Los representantes de los stakeholders están de acuerdo con como sus diferentes prioridades y perspectivas han sido balanceadas para proveer una clara direccion al equipo",true
+"15-1",15,"Stakeholders proveen feedback","Los representantes de los stakeholders proveen feedback del sistema desde la perspectivas de su grupo de stakeholders",true
+"15-2",15,"El sistema esta listo para el despiegue.","Los representantes de los stakeholders confirman que el sistema esta listo para el despliegue.",true
+"16-1",16,"Feedback  del uso del sistema es disponible","Los stakeholders estan usando el nuevo sistema y proveen feedback de sus experiencias",true
+"16-2",16,"El sistema cumple con las alternativas","Los stakeholders confirman que el nuevo sistema cumple con las expectativas.",true
+"21-1",21,"Se ha identificado alguna oportunidad que podria tener una solucion basada en software","Se ha identificado una idea para mejorar la forma actual de trabajar, aumentar la participación de mercado o usar un sistema de software nuevo o innovador.",true
+"21-2",21,"Un stakeholder desea invertir en entender mejor la oportunidad","Al menos una de los stakeholders desea hacer una inversión con el fin de comprender mejor la oportunidad y el valor asociado al abordarlo.",true
+"21-3",21,"Se identificaron a otros stakeholder que comparten la oportunidad","Se han identificado los otras stakeholders que comparten la misma oportunidad.",true
+"22-1",22,"","Se han identificado los stakeholders de la oportunidad y la solución propuesta.",false
+"22-2",22,"Necesidades de  los grupos de interes identificados","Se han establecido las necesidades de los stakeholders que generan la oportunidad.",true
+"22-3",22,"Problema subyacente y causa raíz identificada","Cualquier problema subyacente y sus causas raíz han sido identificadas.",true
+"22-4",22,"Se ha confirmado que se necesita una solución basada en software.","Se ha confirmado que se necesita una solución basada en software.",true
+"22-5",22,"Se ha propuesto al menos una solución basada en software.","Se ha propuesto al menos una solución basada en software.",true
+"23-1",23,"Se ha establecido el valor de una solución exitosa","El valor de abordar la oportunidad se ha cuantificado en términos absolutos o en retornos o ahorros por período de tiempo (por ejemplo, por año).",true
+"23-2",23,"Los stakeholders comprenden el impacto de la solucion","Se entiende el impacto de la solución en los grupos de interés.",true
+"23-3",23,"El valor del sistema de software es comprendido","Se entiende el valor que el sistema de software ofrece a los stakeholders que financiaron y/o usan el sistema de software",true
+"23-4",23,"","Son claros los criterios de éxito, según los cuales se debe juzgar, el despliegue del sistema de software.",false
+"23-5",23,"","Los objetivos deseados requieren de una solución clara y cuantificable.",false
+"24-1",24,"Una solucion ha sido delimitada","Una solucion ha sido delimitada",true
+"24-2",24,"Las indicaciones son que la solución se puede desarrollar y desplegar dentro de las restricciones.","Las indicaciones son que la solución se puede desarrollar y desplegar dentro de las restricciones.",true
+"24-3",24,"Los riesgos son manejables","Los riesgos asociados con la solucion son aceptables y gestionables",true
+"24-4",24,"","Los costos indicativos de la solución son menores que el valor anticipado de la oportunidad",false
+"24-5",24,"","Las razones por la que una solucion basada en software son comprendidas por todos los miembros del equipo.",false
+"24-6",24,"","Está claro que la búsqueda de la oportunidad es viable.",false
+"25-1",25,"Es disponible un sistema utilizable que resuelve demostrablemente la oportunidad.","Es disponible un sistema utilizable que resuelve demostrablemente la oportunidad.",true
+"25-2",25,"Los stakeholders acuerdan que vale la pena la solucion disponible","Los stakeholders acuerdan que la solucion disponible vale desplegarse",true
+"25-3",25,"Los stakeholders están satisfechos de que la solución producida cubra la oportunidad.","Los stakeholders están satisfechos de que la solución producida cubra la oportunidad.",true
+"26-1",26,"La solucion se ha iniciado para acumular beneficio para los stakeholders","La solucion se ha iniciado para acumular beneficio para los stakeholders",true
+"26-2",26,"El perfil del retorno de inversion es al menos tan bueno como se anticipó","El perfil del retorno de inversion es al menos tan bueno como se anticipó",true
+"31-1",31,"","El conjunto inicial de partes interesadas está de acuerdo en que se debe producir un sistema.",false
+"31-2",31,"Se identificaron los usuarios","Se identificaron a los stakeholder que utilizarán el nuevo sistema.",true
+"31-3",31,"Se identificaron los sponsors","Se identificaron las partes interesadas que financiarán el trabajo inicial del nuevo sistema.",true
+"31-4",31,"La necesidad de un nuevo sistema es clara","Hay una clara oportunidad que el nuevo sistema abordará.",true
+"32-1",32,"","Se han identificado los stakeholders involucrados en el desarrollo del nuevo sistema",false
+"32-2",32,"","Las partes interesadas están de acuerdo con el propósito del nuevo sistema.",false
+"32-3",32,"El criterio de exito es claro","Está claro qué es el éxito para el nuevo sistema.",true
+"32-4",32,"","Los stakeholders tienen una entendimiento común del alcance de la solución propuesta.",false
+"32-5",32,"Se acordo la forma en que se describirán los requisitos.","Se acordo la forma en que se describirán los requerimientos",true
+"32-6",32,"Mecanismos para la gestión de requisitos se han acordado","Existen mecanismos para la gestión de requisitos",true
+"32-7",32,"","El esquema de priorización es claro.",false
+"32-8",32,"","Las restricciones estan identificadas y consideradas.",false
+"32-9",32,"Las restricciones y supuestos estan identificados","Los supuestos están claramente establecidos.",true
+"33-1",33,"","Los requisitos están capturados y compartidos con el equipo y las partes interesadas.",false
+"33-2",33,"","El origen de los requisitos es claro.",false
+"33-3",33,"","La razón detrás de los requisitos es clara.",false
+"33-4",33,"Los conflictos son direccionados","Los requisitos conflictivos son identificados y atendidos.",true
+"33-5",33,"","Los requisitos comunican las características esenciales del sistema a entregar.",false
+"33-6",33,"Los principales escenarios de uso son explicados","Se pueden explicar los escenarios de uso más importantes para el sistema.",true
+"33-7",33,"Las prioridades son claras","La prioridad de los requisitos es clara.",true
+"33-8",33,"El impacto es comprendido","Se entiende el impacto de la implementación de los requerimientos",true
+"33-9",33,"El panorama completo es claro y comprendido por todos","El equipo entiende lo que se debe entregar y acuerda entregarlo.",true
+"34-1",34,"Los requerimientos describen una solucion acpetable a los stakeholder","Los stakeholders aceptan que los requisitos describen una solución aceptable.",true
+"34-2",34,"El ratio de cambio para acordar requerimientos  es  bajo ","El ratio de cambio para acordar requerimientos  es relativamente baja y está bajo control.",true
+"34-3",34,"El valor es claro","Es claro el valor proporcionado por la implementación de los requisitos.",true
+"34-4",34,"","Son claras las partes de la oportunidad que son satisfechas por los requisitos.",false
+"34-5",34,"","Los requisitos son verificables.",false
+"35-1",35,"Suficientes requerimientos se implementaron para que el sistema sea aceptable","Se han abordado los requisitos suficientes para que el sistema resultante sea aceptable para las partes interesadas.",true
+"35-2",35,"","Las partes interesadas aceptan que los requerimientos reflejan con precisión lo que el sistema hace y lo que no.",false
+"35-3",35,"","El conjunto de requerimientos implementados proporciona un valor claro a los stakeholders",false
+"35-4",35,"Stakeholders acuerdan que vale la pena poner en funcionamiento el sistema","El sistema que implementa los requisitos es aceptado por las stakeholders como algo que vale la pena poner en funcionamiento.",true
+"36-1",36,"El sistema satisface completamente los requerimientos","Las partes interesadas aceptan que los requerimientos capturan con precisión lo que necesitan para satisfacer completamente la necesidad de un nuevo sistema.",true
+"36-2",36,"No hay requerimientos pendientes","No hay elementos de requisitos pendientes que impidan que el sistema sea aceptado como que satisface plenamente los requisitos.",true
+"36-3",36,"","El sistema es aceptado por las stakeholders como uno que satisface plenamente los requerimientos",false
+"41-1",41,"Los criterios al seleccionar la arquitectura han sido acordados","Los criterios al seleccionar la arquitectura han sido acordados",true
+"41-2",41,"","Se han identificado las plataformas de hardware a usar.",false
+"41-3",41,"Se han seleccionado los lenguajes de programación y tecnologías a utilizar","Se han seleccionado los lenguajes de programación y tecnologías a utilizar",true
+"41-4",41,"","El alcance del sistema es conocido.",false
+"41-5",41,"","Se han tomado decisiones importantes sobre la organización del sistema.",false
+"41-6",41,"Se han tomado decisiones de compra, construcción y reutilización.","Se han tomado decisiones de compra, construcción y reutilización.",true
+"42-1",42,"Se ha demostrado las características clave de la arquitectura.","Se ha demostrado las características clave de la arquitectura.",true
+"42-2",42,"","Se puede medir el desempeño y rendimiento del sistema.",false
+"42-3",42,"Se han demostrado configuraciones críticas de hardware.","Se han demostrado configuraciones críticas de hardware.",true
+"42-4",42,"","Se han demostrado interfaces críticas.",false
+"42-5",42,"","Se ha demostrado la integración con otros sistemas existentes.",false
+"42-6",42,"Las partes interesadas relevantes están de acuerdo en que la arquitectura demostrada es apropiada.","Las partes interesadas relevantes están de acuerdo en que la arquitectura demostrada es apropiada.",true
+"43-1",43,"El sistema puede ser operado por usuarios","El sistema puede ser operado por las partes interesadas que lo utilizan.",true
+"43-2",43,"","La funcionalidad proporcionada por el sistema ha sido probada.",false
+"43-3",43,"La funcionalidad y rendimiento han sido testeados y aceptados","El desempeño del sistema es aceptable para las partes interesadas.",true
+"43-4",43,"Los niveles de defectos son aceptables","Los niveles de defectos son aceptables para las partes interesadas.",true
+"43-5",43,"","El sistema está completamente documentado.",false
+"43-6",43,"El contenido del release es conocido","El contenido de la versión es conocido.",true
+"43-7",43,"","El valor agregado proporcionado por el sistema es claro.",false
+"44-1",44,"Documentacion del usuario es disponible","Instalación y otros documentos de usuario están disponibles.",true
+"44-2",44,"Los stakeholders aceptan el sistema como apto para el propósito","Los representantes de los stakeholders aceptan el sistema como apto para el propósito.",true
+"44-3",44,"Los  stakeholders  quieren que el sistema este operativo","Los representantes de los stakeholders  quieren que el sistema este operativo.",true
+"44-4",44,"","El soporte operativo está en su lugar.",false
+"45-1",45,"El sistema se ha puesto a disposición de las partes interesadas con la intención de utilizarlo.","El sistema se ha puesto a disposición de las partes interesadas con la intención de utilizarlo.",true
+"45-2",45,"Al menos un ejemplo del sistema es completamente operativo.","Al menos un ejemplo del sistema es completamente operativo.",true
+"45-3",45,"El sistema es totalmente compatible con los niveles de servicio acordados.","El sistema es totalmente compatible con los niveles de servicio acordados.",true
+"46-1",46,"El sistema ha sido reemplazado o descontinuado.","El sistema ha sido reemplazado o descontinuado.",true
+"46-2",46,"","El sistema ya no es compatible.",false
+"46-3",46,"El sistema ha sido reemplazado o descontinuado","No hay partes interesadas "oficiales" que todavía utilizan el sistema.",true
+"46-4",46,"Ya no se producirán actualizaciones al sistema.","Ya no se producirán actualizaciones al sistema.",true
+"51-1",51,"La mision del equipo es clara","La misión del equipo se ha definido en términos de oportunidades y resultados.",true
+"51-2",51,"","Las restricciones del funcionamiento del equipo son conocidas.",false
+"51-3",51,"","Los mecanismos para hacer crecer el equipo están en siendo ejecutadas.",false
+"51-4",51,"","Esta definido como el equipo esta compuesto",false
+"51-5",51,"","Las restricciones sobre dónde y cómo se realiza el trabajo están definidas",false
+"51-6",51,"El equipo conoce como lograr una mision","Las responsabilidades del equipo están detalladas.",true
+"51-7",51,"","El nivel de compromiso del equipo es claro.",false
+"51-8",51,"Las competencias requeridas han sido identificadas.","Las competencias requeridas han sido identificadas.",true
+"51-9",51,"Se ha determinado el tamaño del equipo.","Se ha determinado el tamaño del equipo.",true
+"51-10",51,"","Están definidas las reglas de gobierno.",false
+"51-11",51,"","El modelo de liderazgo ha sido seleccionado.",false
+"52-1",52,"","Se entienden las responsabilidades individuales.",false
+"52-2",52,"El equipo tiene los recursos suficinetes para empezar","Se han reclutado suficientes miembros del equipo para permitir que el trabajo progrese.",true
+"52-3",52,"Se entiende la organización del equipo y las responsabilidades individuales","Cada miembro del equipo entiende cómo está organizado el equipo y cuál es su función individual.",true
+"52-4",52,"Todos los miembros del equipo entienden cómo realizar su trabajo.","Todos los miembros del equipo entienden cómo realizar su trabajo.",true
+"52-5",52,"","Los miembros del equipo se han reunido (tal vez virtualmente) y están comenzando a conocerse",false
+"52-6",52,"","Los miembros del equipo entienden sus responsabilidades y cómo se alinean con sus competencias.",false
+"52-7",52,"","Los miembros del equipo aceptan (nuevos) trabajos que se le asignan.",false
+"52-8",52,"","Cualquier colaborador externo (organizaciones, equipos y personas individuales) está identificado.",false
+"52-9",52,"","Se han definido los mecanismos de comunicación del equipo.",false
+"52-10",52,"","Cada miembro del equipo se compromete a trabajar en el equipo como se definió",false
+"53-1",53,"El equipo está trabajando como una unidad.","El equipo está trabajando como una unidad cohesiva",true
+"53-2",53,"La comunicación es abierta y honesta","La comunicación dentro del equipo es abierta y honesta",true
+"53-3",53,"El equipo está enfocado en lograr la misión del equipo y el éxito del equipo está por encima de los objetivos personales","El equipo está enfocado en lograr la misión del equipo",true
+"53-4",53,"","Los miembros del equipo se conocen entre sí",false
+"54-1",54,"El equipo trabaja eficientemente y efectivamente.","El equipo cumple constantemente con sus compromisos",true
+"54-2",54,"Adaptación continua al contexto cambiante","El equipo se adapta continuamente al contexto cambiante",true
+"54-3",54,"","El equipo identifica y aborda los problemas sin ayuda externa",false
+"54-4",54,"Minimo retrabajo y retroceso","Se está logrando un progreso efectivo evitando minimamente un retrabajo o retroceso",true
+"54-5",54,"El desperdicio se elimina continuamente","El trabajo desperdiciado y el potencial de desperdicio de trabajo se eliminan continuamente",true
+"55-1",55,"Las responsabilidades del equipo han sido entregadas o cumplidas.","Las responsabilidades del equipo han sido entregadas o cumplidas.",true
+"55-2",55,"Los miembros del equipo están disponibles para ser asignados a otros equipos.","Los miembros del equipo están disponibles para ser asignados a otros equipos.",true
+"55-3",55,"El equipo ya no posee más responsabilidades","Ningún esfuerzo más del equipo se está dando para completar la misión.",true
+"61-1",61,"","El resultado requerido del trabajo que se está iniciando es claro.",false
+"61-2",61,"Las reeestricciones de trabajo son claras.","Cualquier restricción en el desempeño del trabajo está claramente identificada.",true
+"61-3",61,"","Se conocen los stakeholders que financiarán el trabajo.",false
+"61-4",61,"Está claramente identificado la parte (persona u organización) que inicio el trabajo.","Está claramente identificado la parte (persona u organización) que inicio el trabajo.",true
+"61-5",61,"","Se conocen a las stakeholders que aceptarán los resultados.",false
+"61-6",61,"Sponsors y modelo de financiación claros.","La fuente de financiación es clara.",true
+"61-7",61,"La prioridad del trabajo está clara.","La prioridad del trabajo está clara.",true
+"62-1",62,"","Se hizo un compromiso.",false
+"62-2",62,"Se estimo el costo y esfuerzo del trabajo.","Se estimo el costo y esfuerzo del trabajo.",true
+"62-3",62,"","Se entiende la disponibilidad de recursos.",false
+"62-4",62,"Los procedimientos de gobernanza están acordados.","Las políticas y procedimientos de gobernanza son claros.",true
+"62-5",62,"Se entiende la exposición al riesgo.","Se entiende la exposición al riesgo.",true
+"62-6",62,"Los criterios de aceptación son entendidos.","Los criterios de aceptación estan definidos y acordados con el cliente.",true
+"62-7",62,"","El trabajo se descompone lo suficiente como para que comience el trabajo productivo.",false
+"62-8",62,"","Las tareas han sido identificadas y priorizadas por el equipo y los stakeholders",false
+"62-9",62,"","Un plan creíble está en su lugar.",false
+"62-10",62,"Existe financiación y recursos para comenzar a trabajar","La financiación para comenzar el trabajo está en su lugar.",true
+"62-11",62,"","El equipo o al menos algunos de los miembros del equipo están listos para comenzar el trabajo.",false
+"62-12",62,"Dependencias claras.","Se definen los puntos de integración y entrega.",true
+"63-1",63,"Se ha iniciado el trabajo de desarrollo","Se ha iniciado el trabajo de desarrollo",true
+"63-2",63,"Se supervisa el progreso del trabajo.","Se supervisa el progreso del trabajo.",true
+"63-3",63,"El trabajo se descompone en pequeños elementos de trabajo con definiciones claras de cuando esta hecho.","El trabajo se descompone en pequeños elementos de trabajo con definiciones claras de cuando esta hecho.",true
+"63-4",63,"Los miembros del equipo están aceptando y avanzando tareas.","Los miembros del equipo están aceptando y avanzando tareas.",true
+"64-1",64,"","Las tareas se están completando.",false
+"64-2",64,"El trabajo no planificado y todo retrabajo está bajo control.","El trabajo no planificado está bajo control.",true
+"64-3",64,"El trabajo va bien, los riesgos estan manejados.","Los riesgos están bajo control, tan asi que si hubiera algun  impacto este seria aceptable",true
+"64-4",64,"","Las estimaciones se revisan para reflejar el desempeño del equipo.",false
+"64-5",64,"Las mediciones del progreso son rastreadas.","Las mediciones están disponibles para mostrar el progreso y la velocidad.",true
+"64-6",64,"","El re-trabajo está bajo control.",false
+"64-7",64,"Las tareas se completan dentro de sus estimaciones","Las tareas se completan constantemente a tiempo y dentro de sus estimaciones.",true
+"65-1",65,"Las tareas importantes han sido logradas ","Todas las tareas pendientes son tareas administrativas o relacionadas con la preparación del siguiente trabajo.",true
+"65-2",65,"Se han logrado resultados de trabajo.","Se han logrado resultados de trabajo.",true
+"65-3",65,"Los stakeholders han aceptado el sistema de software resultante.","Los stakeholders han aceptado el sistema de software resultante.",true
+"66-1",66,"","Las lecciones aprendidas han sido detalladas, registradas y discutidas.",false
+"66-2",66,"Las lecciones aprendidas y las métricas están disponibles.","Las métricas se han puesto a disposición.",true
+"66-3",66,"Todo ha sido archivado.","Todo ha sido archivado.",true
+"66-4",66,"","El presupuesto ha sido conciliado y cerrado.",false
+"66-5",66,"","El equipo ha sido liberado",false
+"66-6",66,"Todas las tareas de limpieza pendientes han sido logradas, y el trabajo ha sido oficialmente cerrado. ","No hay tareas pendientes o incompletas.",true
+"71-1",71,"Compromiso con los principios y reestricciones ","El equipo esta comprometido con los principios y reestricciones.",true
+"71-2",71,"Principios y reestricciones establecidos","Los stakeholders estan de acuerdo con los principios y restricciones ",true
+"71-3",71,"Prácticas y herramientas de trabajo han sido acordadas.","Los stakeholders están de acuerdo en las necesidades de prácticas y herramientas de trabajo.",true
+"71-4",71,"","Una recomendación para el enfoque a tomar está disponible.",false
+"71-5",71,"Se entiende el contexto dentro del cual opera el equipo.","Se entiende el contexto dentro del cual opera el equipo.",true
+"71-6",71,"","Se conocen las restricciones que se usan en la selección, adquisición y uso de prácticas y herramientas. ",false
+"72-1",72,"","Se seleccionan las prácticas y herramientas clave que forman la base de la forma de trabajar.",false
+"72-2",72,"Las prácticas y herramientas clave están listas.","El equipo acordó  las suficientes prácticas para comenzar a trabajar.",true
+"72-3",72,"","Todas las prácticas y herramientas no negociables han sido identificadas.",false
+"72-4",72,"Las brechas que existen en las prácticas y herramientas se han analizado y comprendido.","Las brechas que existen entre las prácticas y herramientas que se necesitan y las prácticas y herramientas que están disponibles se han analizado y comprendido.",true
+"72-5",72,"Las brechas de capacidad se han analizado y comprendido.","Las brechas de capacidad que existen entre lo que se necesita para ejecutar la forma de trabajo deseada y los niveles de capacidad del equipo se han analizado y comprendido.",true
+"72-6",72,"Las prácticas y herramientas seleccionadas se han integrado","Las prácticas y herramientas seleccionadas se han integrado para formar una forma de trabajo útil.",true
+"73-1",73,"Algunos miembros están trabajando con la forma de trabajo seleccionada.","Las prácticas y herramientas se están utilizando para hacer un trabajo real.",true
+"73-2",73,"El uso de las prácticas y herramientas se inspecciona regularmente.","El uso de las prácticas y herramientas seleccionadas se inspecciona regularmente.",true
+"73-3",73,"","Las prácticas y herramientas están siendo adaptadas de acuerdo al contexto del equipo.",false
+"73-4",73,"Las prácticas y herramientas están siendo adaptadas por el equipo.","El equipo apoya el uso de prácticas y herramientas.",true
+"73-5",73,"Existen procedimientos para manejar el feedback.","Existen procedimientos para manejar el feedback sobre la forma de trabajar del equipo.",true
+"73-6",73,"","Las prácticas y herramientas apoyan la comunicación y colaboración del equipo.",false
+"74-1",74,"Todos los miembros del equipo están usando la forma de trabajar.","Las prácticas y herramientas están siendo utilizadas por todo el equipo para realizar su trabajo.",true
+"74-2",74,"Todos los miembros del equipo tienen acceso a las prácticas y herramientas necesarias para hacer su trabajo.","Todos los miembros del equipo tienen acceso a las prácticas y herramientas necesarias para hacer su trabajo.",true
+"74-3",74,"Todo el equipo está involucrado en la inspección y adaptación de la forma de trabajo.","Todo el equipo está involucrado en la inspección y adaptación de la forma de trabajo.",true
+"75-1",75,"La forma de trabajo está funcionando bien en el equipo y estan avanzando como lo planeado.","Los miembros del equipo están avanzando según lo planeado mediante el uso y la adaptación de la forma de trabajo que escogieron de acuerdo a su contexto actual.",true
+"75-2",75,"El equipo naturalmente aplica prácticas sin pensar en ellas.","El equipo naturalmente aplica prácticas sin pensar en ellas.",true
+"75-3",75," Las herramientas naturalmente apoyan la forma en que trabaja el equipo."," Las herramientas naturalmente apoyan la forma en que trabaja el equipo.",true
+"75-4",75,"","El equipo afina continuamente su uso de las prácticas y herramientas.",false
+"76-1",76,"La forma de trabajar del equipo ya no se usa.","La forma de trabajar del equipo ya no se usa.",true
+"76-2",76,"Las lecciones aprendidas se comparten para un futuro uso","Las lecciones aprendidas se comparten para un futuro uso",true
