@@ -103,7 +103,7 @@
 "45-3",45,"El sistema es totalmente compatible con los niveles de servicio acordados.","El sistema es totalmente compatible con los niveles de servicio acordados.",true
 "46-1",46,"El sistema ha sido reemplazado o descontinuado.","El sistema ha sido reemplazado o descontinuado.",true
 "46-2",46,"","El sistema ya no es compatible.",false
-"46-3",46,"El sistema ha sido reemplazado o descontinuado","No hay partes interesadas "oficiales" que todavía utilizan el sistema.",true
+"46-3",46,"El sistema ha sido reemplazado o descontinuado","No hay partes interesadas 'oficiales' que todavía utilizan el sistema.",true
 "46-4",46,"Ya no se producirán actualizaciones al sistema.","Ya no se producirán actualizaciones al sistema.",true
 "51-1",51,"La mision del equipo es clara","La misión del equipo se ha definido en términos de oportunidades y resultados.",true
 "51-2",51,"","Las restricciones del funcionamiento del equipo son conocidas.",false
