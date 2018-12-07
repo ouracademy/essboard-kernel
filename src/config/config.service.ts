@@ -1,4 +1,5 @@
 import { Logger } from '@nestjs/common';
+import * as dotenv from 'dotenv'
 
 interface EnvConfig {
   [key: string]: string;
@@ -9,7 +10,7 @@ export class ConfigService {
   private logger = new Logger(`ConfigService`, true);
 
   constructor() {
-    if (process.env.NODE_ENV !== 'production') require('dotenv').config();
+    dotenv.config();
 
     this.envConfig = process.env;
   }
