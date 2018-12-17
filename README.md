@@ -26,7 +26,7 @@ or
 
 ```bash
 # dev
-$ docker run --env-file .env -p 3000:3000 essboard-kernel-api
+$ docker run -d --env-file .env -p 3000:3000 --name essboard-kernel-service essboard-kernel-api
 
 # for prod add environment variables (e.g. NODE_ENV = production)
 ```
