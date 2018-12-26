@@ -48,6 +48,22 @@ export class KernelService {
         return Promise.reject(new BadRequestException(error));
       });
   }
+  public async getAlphasWithAllDetail(): Promise<any> {
+    const session = this.neo4jDriver.session();
+    return session
+      .run(
+        `MATCH (checkpoint:Checkpoint)<-[:HAS_CHECKPOINTS]-(state: State)-[:BELONGS_ALPHA]->(alpha:Alpha )
+        OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
+        RETURN  alpha.id as alphaId, state.id as id, state.name as name, collect({id: checkpoint.id}) as checklist ORDER BY id`,
+      )
+      .then(result => {
+        session.close();
+        return result.records.map(record => record.toObject());
+      })
+      .catch(error => {
+        return Promise.reject(new BadRequestException(error));
+      });
+  }
 
   public async getStates(alphaId: string): Promise<State> {
     const session = this.neo4jDriver.session();

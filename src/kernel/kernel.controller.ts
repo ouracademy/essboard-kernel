@@ -20,6 +20,11 @@ export class KernelController {
     return await this.service.getAlpha(alphaId);
   }
 
+  @Get('alpha')
+  public async getAllAlphas() {
+    return await this.service.getAlphasWithAllDetail();
+  }
+
   @Get('schema')
   public async getkernelSchema() {
     return await this.service.getkernelSchema();
