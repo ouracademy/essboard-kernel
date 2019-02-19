@@ -84,24 +84,6 @@ export class KernelService {
       .catch(error => Promise.reject(new BadRequestException(error)));
   }
 
-  public async getkernelSchema(): Promise<State> {
-    const session = this.neo4jDriver.session();
-    return session
-      .run(
-        `MATCH (state: State)-[:BELONGS_ALPHA]->(alpha:Alpha)
-        OPTIONAL MATCH (state)<-[:PREVIOUS_FROM]-(prev: State)
-        WITH state,alpha,prev
-        ORDER BY state.id
-        RETURN alpha.id as id, collect({id: state.id, previous: prev.id}) as states
-        ORDER BY id`,
-      )
-      .then(result => {
-        session.close();
-        return result.records.map(record => record.toObject());
-      })
-      .catch(error => Promise.reject(new BadRequestException(error)));
-  }
-
   public getCheckpoints(stateId) {
     const session = this.neo4jDriver.session();
     return session
