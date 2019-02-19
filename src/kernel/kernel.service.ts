@@ -31,7 +31,7 @@ export class KernelService {
       .catch(error => Promise.reject(new BadRequestException(error)));
   }
 
-  public async getAlpha(alphaId: string): Promise<any> {
+  public async getAlphaStates(alphaId: string): Promise<any> {
     const session = this.neo4jDriver.session();
     return session
       .run(
@@ -48,7 +48,7 @@ export class KernelService {
         return Promise.reject(new BadRequestException(error));
       });
   }
-  public async getAlphasWithAllDetail(): Promise<any> {
+  public async getStates(): Promise<any> {
     const session = this.neo4jDriver.session();
     return session
       .run(
@@ -65,7 +65,7 @@ export class KernelService {
       });
   }
 
-  public async getStates(alphaId: string): Promise<State> {
+  public async getAlpha(alphaId: string): Promise<State> {
     const session = this.neo4jDriver.session();
     return session
       .run(

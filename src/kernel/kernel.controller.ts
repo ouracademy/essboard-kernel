@@ -5,24 +5,24 @@ import { KernelService } from './kernel.service';
 export class KernelController {
   constructor(private readonly service: KernelService) {}
 
-  @Get()
+  @Get('alphas')
   public async getAlphas() {
     return await this.service.getAlphas();
   }
 
   @Get('alphas/:id')
-  public async getStates(@Param('id') alphaId: string) {
-    return await this.service.getStates(alphaId);
-  }
-
-  @Get('alpha/:id')
   public async getAlpha(@Param('id') alphaId: string) {
     return await this.service.getAlpha(alphaId);
   }
 
-  @Get('alpha')
-  public async getAllAlphas() {
-    return await this.service.getAlphasWithAllDetail();
+  @Get('alphas/:id/states')
+  public async getAlphaStates(@Param('id') alphaId: string) {
+    return await this.service.getAlphaStates(alphaId);
+  }
+
+  @Get('states')
+  public async getStates() {
+    return await this.service.getStates();
   }
 
   @Get('states/:id/checkpoints')
