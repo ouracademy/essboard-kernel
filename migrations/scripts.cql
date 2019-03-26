@@ -23,7 +23,7 @@ RETURN r
 // Load state and alpha state
 
 LOAD CSV FROM 'https://raw.githubusercontent.com/ouracademy/essboard-kernel/master/migrations/states.csv' AS line
-CREATE (state:State { name : line[1], id: line[0] })
+CREATE (state:State { number: toString(toInt(state.id)%10), name : line[1], id: line[0] })
 WITH state
 MATCH (alpha:Alpha)
 WHERE alpha.id = toString(toInt(state.id)/10)
