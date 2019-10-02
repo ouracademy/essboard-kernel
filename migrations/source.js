@@ -74,18 +74,20 @@ module.exports = [
   {
     checkpoint: '143',
     state: '14',
-    name: 'Aporte de los representantes de los  stakeholders son valoradas.',
+    name:
+      'The stakeholder representatives agree that their input is valued by the team and treated with respect.',
   },
   {
     checkpoint: '144',
     state: '14',
     name:
-      'Los miembros del equipo estan de acuerdo que su aporte es valorado y tratada con respeto por los representantes de los stakeholders',
+      'The team members agree that their input is valued by the stakeholder representatives and treated with respect.',
   },
   {
     checkpoint: '145',
     state: '14',
-    name: 'Prioridades claras y perspectivas balanceadas.',
+    name:
+      'The stakeholder representatives agree with how their different priorities and perspectives are being balanced to provide a clear direction for the team.',
   },
   {
     checkpoint: '151',
