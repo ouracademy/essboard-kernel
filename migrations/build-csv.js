@@ -8,7 +8,7 @@ const data = checkpoints
       : `"${parseInt(x.checkpoint / 100)}-${parseInt(x.checkpoint % 100)}"`,
     x.state,
     `"${x.name ? x.name : ''}"`,
-    `"${x.description}"`,
+    `"${x.name}"`,
     !!x.name,
   ])
   .map(arr => arr.join(','))
