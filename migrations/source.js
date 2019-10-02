@@ -972,7 +972,7 @@ module.exports = [
   {
     checkpoint: '736',
     state: '73',
-    namw:
+    name:
       'The practices and tools support team communication and collaboration.',
   },
   {
