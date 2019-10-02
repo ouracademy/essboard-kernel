@@ -23,17 +23,17 @@ RETURN r
 // Load state and alpha state
 
 LOAD CSV FROM 'https://raw.githubusercontent.com/ouracademy/essboard-kernel/master/migrations/states.csv' AS line
-CREATE (state:State { number: toString(toInt(state.id)%10), name : line[1], id: line[0] })
+CREATE (state:State { number: toString(toInteger(line[0])%10), name : line[1], id: line[0] })
 WITH state
 MATCH (alpha:Alpha)
-WHERE alpha.id = toString(toInt(state.id)/10)
+WHERE alpha.id = toString(toInteger(state.id)/10)
 CREATE (state)-[r:BELONGS_ALPHA]->(alpha)
 RETURN r
 
 // Load previous states 
 
 MATCH (state:State),(previous:State)
-WHERE toInt(state.id)%10>1 and previous.id = toString(toInt(state.id)-1)
+WHERE toInteger(state.id)%10>1 and previous.id = toString(toInteger(state.id)-1)
 CREATE (previous)-[r:PREVIOUS_FROM]->(state)
 RETURN r
 
