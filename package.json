@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^5.7.2",
-    "@nestjs/core": "^5.7.2",
+    "@nestjs/core": "^9.2.1",
     "dotenv": "^6.2.0",
     "neo4j-driver": "^1.7.2",
     "reflect-metadata": "^0.1.13",
